@@ -1,5 +1,5 @@
 ---
-title: "A Book"
+title: "A scientific article"
 author: "Frida Gomam"
 documentclass: article
 bibliography: references.bib
