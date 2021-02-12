@@ -1,17 +1,24 @@
 ---
-title: "A Book"
+title: "A scientific article"
 author: "Frida Gomam"
-site: bookdown::bookdown_site
-documentclass: book
+documentclass: article
+bibliography: references.bib
+header-includes:
+  - \usepackage{lineno}
+  - \linenumbers
 output:
-  bookdown::gitbook: default
-  #bookdown::pdf_book: default
+  bookdown::pdf_document2:
+   keep_tex: true
 ---
 
 # Hello World
 
-Hi.
+Hi. Check out @Kelleher2018-fu
 
-Bye.
+Or even its older cousin [@Kelleher2016-cb]. Bye.
 
 <!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
+
+# References
+
+<!-- always show up last and you must provide your own section header -->

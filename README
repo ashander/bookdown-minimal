@@ -1,0 +1,3 @@
+setup:
+
+Rscript -e 'install.packages("bookdown")'
